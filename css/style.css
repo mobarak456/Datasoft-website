@@ -1,0 +1,126 @@
+.dropdown-item:hover {
+    background-color: lightsalmon;
+    color: #fff;
+}
+
+.dropdown:hover>.dropdown-menu,
+.dropend:hover>.dropdown-menu {
+    display: block;
+    margin-top: 0.125em;
+    margin-left: 0.125em;
+}
+.carousel-indicators li{
+ width: 10px; 
+ height: 10px;
+ border: 1px solid white !important;
+    background-color: #ffffff05;
+
+}
+
+.carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    border-radius: 100%;
+    width: 15px;
+    height: 20px !important;
+    padding: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    font-size: 1px;
+    background-clip: padding-box;
+    background-color: #fff;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+}
+.industries-section{
+    background-color: rgba(241, 239, 239, 0.655);
+}
+.industries-section h6{
+     color: grey;
+}
+.backgraund_section{
+    background-color: rgba(241, 239, 239, 0.669);
+}
+.backgraund_section a{
+  font-size: 55px;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  line-height: 25px;
+}
+
+.backgraund_section p{
+   text-align: justify;
+  }
+.owl_carousel_section a{
+    text-decoration: none;
+    color: dimgrey;
+   padding: 20px 0px;
+}
+.owl_carousel_section h6{
+    color: blue;
+}
+.owl_carousel_section{
+    background-color: rgba(241, 239, 239, 0.669);
+}
+.NEWSROOM h1{
+    color: blue;
+    padding: 5px;
+    border: 3px solid red;
+    display: inline-block;
+}
+.contact-section{
+    background-color: rgba(241, 239, 239, 0.655);
+}
+.contact-section a{
+    text-decoration: none;
+    color: #151414;
+}
+.contact-section a:hover{
+    text-decoration: underline;
+    color: #1514147c;
+}
+button.owl-prev, .owl-carousel button.owl-dot {
+    /* width: 30px; */
+    font-size: 57px;
+    color: inherit;
+    border: none;
+    padding: 0!important;
+   
+}
+/* footer section */
+
+.footer_section{
+    color: #fff;
+    background-color: #19328A;
+}
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color:#fff;
+    margin:0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #1e1b1b;
+    transition: all 0.5s ease;
+  }
+  .footer-col .social-links a:hover{
+    color: #e0e4ec;
+    background-color: #36343418;
+  }
+  .DataSoft-Internal a{
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+  }
+  .DataSoft-Internal a:hover{
+    color: #fff;
+    padding: 10px;
+    text-decoration: underline;
+  }
